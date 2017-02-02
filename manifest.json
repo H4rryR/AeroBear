@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Hello Chrome",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://mail.google.com/*",
+        "http://mail.google.com/*"
+      ],
+      "js": [
+        "node_modules/jquery/dist/jquery.min.js",
+        "content.js"
+      ]
+    }
+  ]
+}

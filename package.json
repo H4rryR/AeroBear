@@ -1,0 +1,14 @@
+{
+  "name": "hellochrome",
+  "version": "1.0.0",
+  "description": "Gmail extension for increased productivity",
+  "main": "content.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Harry Radford",
+  "license": "ISC",
+  "devDependencies": {
+    "jquery": "^3.1.1"
+  }
+}
